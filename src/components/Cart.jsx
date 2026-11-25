@@ -33,7 +33,6 @@ export default function Cart() {
             ))}
           </ul>
 
-          {/* Total Amount */}
           <div className="total-bar">
             <span>Total Amount:</span>
             <strong>${totalAmount.toFixed(2)}</strong>

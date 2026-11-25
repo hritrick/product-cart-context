@@ -1,7 +1,6 @@
 import { useContext } from 'react';
 import { CartContext } from '../context/CartContext';
 
-// Hardcoded product list with name and price
 const PRODUCTS = [
   { id: 1, name: 'Mechanical Keyboard', price: 79.99 },
   { id: 2, name: 'Wireless Mouse', price: 29.99 },
